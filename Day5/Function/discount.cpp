@@ -10,6 +10,6 @@ int main() {
     cout << "Enter original bill amount: ";
     cin >> bill;
     applyDiscount(bill); 
-    cout << "Bill after 10% discount = " << bill << endl;
+    cout << "Bill after discount = " << bill << endl;
     return 0;
 }
