@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int arr[5];
+    cout<<"Enter Elements of the array: ";
+    int size = sizeof(arr)/sizeof(arr[0]);
+    for(int i =0;i<size; i++) {
+        cin>>arr[i];
+    }
+    for(int i =0; i<size; i++) {
+        cout<<arr[i]<<" ";
+    }
+    return 0;
+}
