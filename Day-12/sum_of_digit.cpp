@@ -2,6 +2,7 @@
 using namespace std;
 
 int sum_of_digits(int n) {
+    //base case
     if (n == 0) {
         return 0;
     }
